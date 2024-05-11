@@ -20,17 +20,17 @@ nav > a {
   text-decoration: none;
 }
 
-#navcent {
+#nav__center {
   margin-left: 40px;
   margin-right: 40px;
 }
 
-.fp__main {
+.header__content {
   margin: 140px 0px 194px 72px;
   color: rgb(112, 52, 18)
 }
 
-.fph1 {
+.header__content-text1 {
   margin-top: 21px;
   font-size: 80px;
   line-height: 88px;
@@ -39,7 +39,7 @@ nav > a {
   min-height: 264px;
 }
 
-.fph2 {
+.header__content-text2 {
   max-width: 571px;
   min-height: 125px;
   font-size: 32px;
@@ -146,29 +146,29 @@ footer {
   color: rgb(255, 255, 255);
 }
 
-.last_page {
+.last__page {
   margin-left: 72px;
 }
 
-#footer1text {
+#footer__text {
   padding-top: 120px;
   font-size: 12px;
   letter-spacing: 1.6px;
   padding-bottom: 24px;
 }
 
-.fmaintext {
+.footer__main-text {
   font-size: 30px;
   line-height: 38.4px;
   
 }
 
-.fmaintext > span {
+.footer__main-text > span {
   color: rgba(255, 255, 255, 0.72);
   font-size: 29px;
 }
 
-.fmaintext1 {
+.footer__main-text1 {
   margin-bottom: 110px;
 }
 
@@ -180,39 +180,39 @@ footer {
   flex-direction: column;
 }
 
-.footerlinks > a {
+.footer__links > a {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.72);
 }
 
-.footerlinks1 {
+.footer__links1 {
   margin-right: 169px;
 }
 
-.footerlinks2 {
+.footer__links2 {
   margin-right: 207px;
 }
 
-.footerlinks3 {
+.footer__links3 {
   margin-right: 189px;
 }
 
 @media screen and (max-width: 1300px) {
-  .footerlinks1 {
+  .footer__links1 {
     margin-right: 50px;
   }
   
-  .footerlinks2 {
+  .footer__links2 {
     margin-right: 65px;
   }
 
-  .footerlinks3 {
+  .footer__links3 {
     margin-right: 65px;
   }
 
 }
 
-.end {
+.footer__end {
   font-size: 16px;
   line-height: 24px;
   text-align: left;
@@ -220,32 +220,35 @@ footer {
   padding-top: 19px;
 }
 
-.end > p {
+.footer__end > p {
   padding-left: 72px;
 }
 
 /***************************** общие ****************************/
 @media screen and (max-width: 768px) {
   
-  .fph1 {
-    font-size: 66px;
-    line-height: 72px;
+  .header__content-text0 {
+    font-size: 14px;
+  }
+  .header__content-text1 {
+    font-size: 60px;
+    line-height: 70px;
   }
 
-  .fph2 {
-    font-size: 30px;
-    
+  .header__content-text2 {
+    font-size: 28px;
+    max-width: 450px;
   }
 
-  .fpmain {
+  .header__content {
     margin-left: 42px;
   }
 
-  .footerlinks1 {
+  .footer__links1 {
     margin-right: 50px;
   }
   
-  .footerlinks3 {
+  .footer__links3 {
     margin-right: 50px;
     display: flex;
     margin-bottom: 30px;
@@ -254,32 +257,29 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
-  .fph1 {
+  .header__content-text1 {
     max-width: 400px;
     font-size: 60px;
     line-height: 68px;
-
   }
-  .fph2 {
+  .header__content-text2 {
     max-width: 400px;
     font-size: 26px;
   }
 
-  
-
-  .fmaintext {
+  .footer__main-text {
     font-size: 22px;
   }
 
-  .fmaintext > span {
+  .footer__main-text > span {
     font-size: 22px;
   }
 
-  .last_page {
+  .last__page {
     margin-left: 42px;
   }
 
-  .end > p {
+  .footer__end > p {
     padding-left: 42px;
   }
 }
